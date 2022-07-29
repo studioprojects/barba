@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FED Website GSAP Wireframe</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body data-barba="wrapper">
+
+    <div class="load-container">
+        <div class="loading-screen"></div>
+    </div>
+
+    <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav>
+        <div class="slider-top">
+            <div class="slider-top__container">
+                <div class="slider-top__address">
+                    <h1>Andrew Taylor</h1>
+                    <p>
+                        6 Woodbridge Pl<br>
+                        Oxenford QLD<br>
+                        Australia 4210 <br><br>
+                        +61 424 656 973
+                    </p>            
+                </div>
+                <div class="slider-top__skills">
+                    <h1>Front End Developer</h1>
+                    <p>UI|UX</p>
+                </div>      
+            </div>
+        </div>
+
+        <div class="slider-bottom">
+            <ul>
+                <li class="menu-btn"><a href="index.html">home</a></li>
+                <li class="menu-btn"><a href="about.html">about</a></li>
+                <li class="menu-btn"><a href="projects.html">projects</a></li>
+                <li class="menu-btn"><a href="contact.html">contact</a></li>
+            </ul>
+        </div>        
+    </nav>    
+    
+    <main data-barba="container" data-barba-namespace="projects"></main>
+    
+        <div class="section black">PROJECTS</div>
+        <div class="section orange"></div>
+        <div class="section dark-grey"></div>    
+
+        <canvas></canvas>
+
+    </main>
+   
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="./js/transitions.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
